@@ -1,0 +1,14 @@
+<app-toolbar></app-toolbar>
+<div class="content" role="main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col selection-form">
+        <app-converter-selection (newConverterEvent)="setConverter($event)"></app-converter-selection>
+      </div>
+      <div class="w-100"></div>
+      <div class="col calculation-form">
+        <app-converter-calculation [converter]="currentConverter"></app-converter-calculation>
+      </div>
+    </div>
+  </div>    
+</div>

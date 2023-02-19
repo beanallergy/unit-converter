@@ -1,0 +1,27 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1944d2;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.toolbar svg {
+  margin: 0 16px;
+}
+
+.toolbar svg path{
+  fill: #fff;
+}
+
+.spacer {
+  flex: 1;
+}

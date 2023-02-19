@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-5">
+    <div ngbDropdown class="dropdown">
+      <button class="btn btn-outline-primary" id="converterCategorySelect" ngbDropdownToggle>{{ selectedCategoryString }}</button>
+      <div ngbDropdownMenu aria-labelledby="converterCategorySelect">
+          <button class="btn btn-outline-primary" ngbDropdownItem *ngFor="let categoryName of categoriesNames" (click)="setNewCategory(categoryName)">{{ categoryName }}</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-2 my-3">
+    <div id="icon">
+      <img [src]="'assets/icons/'+selectedCategoryString+'.jpg'" height="40" width="40"/>
+    </div>
+  </div>
+  
+  <div class="col-md-5">
+    <div ngbDropdown class="dropdown">
+      <button class="btn btn-outline-primary" id="converterSelect" ngbDropdownToggle>{{ selectedConverterString }}</button>
+      <div ngbDropdownMenu aria-labelledby="converterSelect">
+          <button class="btn btn-outline-primary" ngbDropdownItem *ngFor="let converterName of convertersNames" (click)="setNewConverter(converterName)">{{ converterName }}</button>
+      </div>
+    </div>
+  </div>
+</div>

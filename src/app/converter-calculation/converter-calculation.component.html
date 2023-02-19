@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-5">
+    <span> Input as {{ converter.input }} </span>
+    <div class="card">
+      <div id="input-card" class="card-body">
+        <input type="number" [(ngModel)]="converterInput" default=1>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+  <div class="col-md-5">
+    <span> Output as {{ converter.output }} </span>
+    <div class="card">
+      <div id="output-card" class="card-body">
+      {{ converterInput | linearConvert: converter.rate | number: '1.0-3' }}
+      </div>
+    </div>
+  </div>
+</div>

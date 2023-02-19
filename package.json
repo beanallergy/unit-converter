@@ -1,0 +1,49 @@
+{
+  "name": "angular-unit-converter",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve -o",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "",
+    "@angular/common": "",
+    "@angular/compiler": "",
+    "@angular/core": "",
+    "@angular/forms": "",
+    "@angular/platform-browser": "",
+    "@angular/platform-browser-dynamic": "",
+    "@angular/router": "",
+    "@ng-bootstrap/ng-bootstrap": "",
+    "bootstrap": "",
+    "tslib": "",
+    "zone.js": ""
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "",
+    "@angular/cli": "",
+    "@angular/compiler-cli": "",
+    "@angular/localize": "",
+    "@angular/service-worker": "",
+    "@types/jasmine": "",
+    "@types/node": "",
+    "codelyzer": "",
+    "jasmine-core": "",
+    "jasmine-spec-reporter": "",
+    "karma": "",
+    "karma-chrome-launcher": "",
+    "karma-coverage": "",
+    "karma-jasmine": "",
+    "karma-jasmine-html-reporter": "",
+    "protractor": "",
+    "rxjs": "",
+    "ts-node": "",
+    "tslint": "",
+    "typescript": ""
+  }
+}

@@ -1,0 +1,12 @@
+.card {
+  margin: 10px 12px 32px;
+  border: 1px solid rgba(0, 123, 255, 1);
+}
+
+#input-card input {
+  padding: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border-style: hidden;
+}

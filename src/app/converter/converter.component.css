@@ -1,0 +1,20 @@
+:host {
+  width: 100%;
+  text-align: center
+}
+
+.row {
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  width: 100%
+}
+
+.col.calculation-form {
+  margin: 32px;
+  padding: 16px 0;
+  width: 100%
+}
+
+app-converter-calculation, app-converter-selection {
+  margin: 24px
+}
